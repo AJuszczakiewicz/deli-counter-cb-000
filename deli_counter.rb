@@ -14,5 +14,6 @@ def take_a_number(array, name)
   array << name
 end
 
-def now_serving
+def now_serving(array)
+  puts "Currently serving #{array.unshift}"
 end
