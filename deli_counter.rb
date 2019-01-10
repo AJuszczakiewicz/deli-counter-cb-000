@@ -9,7 +9,8 @@ def line(array)
   end
 end
 
-def take_a_number
+def take_a_number(array, name)
+  puts "Welcome, #{name}. You are number #{array.size} in line."
 end
 
 def now_serving
