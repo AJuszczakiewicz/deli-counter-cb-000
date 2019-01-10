@@ -1,5 +1,7 @@
 # Write your code here.
-def line(kart_deli)
+def line(array)
+  if !array
+    "The line is currently empty."
 end
 
 def take_a_number
