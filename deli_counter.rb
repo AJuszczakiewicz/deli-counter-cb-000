@@ -1,6 +1,6 @@
 # Write your code here.
 def line(array)
-  if !array
+  if array.empty?
     "The line is currently empty."
 end
 
